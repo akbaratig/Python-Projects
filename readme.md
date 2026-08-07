@@ -22,13 +22,6 @@ Python-Projects/
 
 ---
 
-## 📊 Projects Overview
-
-| Project Name | Description | Tech Stack | Location |
-| :--- | :--- | :--- | :--- |
-| **Number Guessing Game** | Interactive CLI game with random number generation, input validation, and scoring | `Python` | [`Projects/Number Guessing Game/`](./Projects/) |
-
----
 
 ## 🚀 How to Use
 
