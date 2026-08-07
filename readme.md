@@ -32,7 +32,7 @@ Python-Projects/
 
 2. **Navigate into the desired project directory:**
    ```bash
-   cd Python-Projects/Projects/"Number Guessing Game"/
+   cd Python-Projects/"Number Guessing Game"/
    ```
 
 3. **Follow the instructions** inside the specific project's `README.md` to run the code.
