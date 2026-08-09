@@ -37,8 +37,11 @@ def main():
         elif user_guess < random_number:
             print("Your Guess is too low. Please Try again")
         else :
-            print("Congratulations !!!!")
+            print("Congratulations !!!! You Guessed the Correct Number.")
             print(f"Your Score is : {score}")
+            temp = input("Do you want to play again ? (y/n) : ")
+            if temp.lower() == 'y':
+                main()
             break
     
     score -= 5 
@@ -49,4 +52,5 @@ def main():
 
 
 if __name__ == '__main__':
+    print("Welcome to the Number Guessing Game !!")
     main()
