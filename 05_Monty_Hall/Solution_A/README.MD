@@ -58,7 +58,7 @@ git clone https://github.com/<your-username>/python-projects.git
 2. Move into this project's folder:
 
 ```bash
-cd python-projects/monty-hall-simulation
+cd python-projects/Monty-Hall
 ```
 
 ## ▶️ Usage
@@ -66,7 +66,7 @@ cd python-projects/monty-hall-simulation
 Run the script from your terminal:
 
 ```bash
-python main.py
+python mmonty_hall.py
 ```
 
 You'll be prompted to enter how many games to simulate:
@@ -85,9 +85,10 @@ Win rate without switching: 33.21 %
 ## 📁 Project Structure
 
 ```
-monty-hall-simulation/
+Monty-Hall/
 │
-├── main.py       # Core simulation logic and CLI entry point
+├── src
+        ├──monty_hall.py       # Core simulation logic and CLI entry point
 └── README.md     # Project documentation
 ```
 
