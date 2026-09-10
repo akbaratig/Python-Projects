@@ -3,6 +3,8 @@ from typing import Tuple
 
 
 def monty_hall_game(switch_doors : bool) -> bool:
+    """Simulates a single game of Monty Hall."""
+    
     doors = ['goat', 'car', 'goat']
     random.shuffle(doors)
     
